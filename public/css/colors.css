@@ -1,0 +1,176 @@
+.graphite {
+	color: #53565b;
+}
+.graphite-bg {
+	background-color: #53565b;
+}
+.nickel {
+	color: #bab6aa;
+}
+.nickel-bg {
+	background-color: #bab6aa;
+}
+.lithium {
+	color: #8A8D8F;
+}
+.lithium-bg {
+	background-color: #8A8D8F;
+}
+.cobalt {
+	color: ##0047AB;
+}
+.cobalt-bg {
+	background-color: #0047AB;
+}
+.rare-earth {
+	color: #EDEDEF;
+}
+.rare-earth-bg {
+	background-color: #EDEDEF;
+}
+.plastic {
+	color: #c0d0a3;
+}
+.plastic-bg {
+	background-color: #c0d0a3;
+}
+.copper {
+	color: #B87333;
+}
+.copper-bg {
+	background-color: #B87333;
+}
+.aluminium {
+	color: #888B8D;
+}
+.aluminium-bg {
+	background-color: #888B8D;
+}
+.steel {
+	color: #888B8D;
+}
+.steel-bg {
+	background-color: #888B8D;
+}
+.platinum {
+  color: #E5E4E2;
+}
+.platinum-bg {
+  background-color: #E5E4E2;
+}
+.paper {
+	color: #f6eee3;
+}
+.paper-bg {
+	background-color: #f6eee3;
+}
+.graphite path {
+	stroke: #53565b;
+}
+.graphite circle {
+	fill: #53565b;
+}
+.nickel path {
+	stroke: #bab6aa;
+}
+.nickel circle {
+	fill: #bab6aa;
+}
+.lithium path {
+	stroke: #8A8D8F;
+}
+.lithium circle {
+	fill: #8A8D8F;
+}
+.cobalt path {
+	stroke: #0047AB;
+}
+.cobalt circle {
+	fill: #0047AB;
+}
+.rare-earth path {
+	stroke: #EDEDEF;
+}
+.rare-earth circle {
+	fill: #EDEDEF;
+}
+.plastic path {
+	stroke: #c0d0a3;
+}
+.plastic circle {
+	fill: #c0d0a3;
+}
+.copper path {
+	stroke: #B87333;
+}
+.copper circle {
+	fill: #B87333;
+}
+.aluminium path {
+	stroke: #888B8D;
+}
+.aluminium circle {
+	fill: #888B8D;
+}
+.steel path {
+	stroke: #888B8D;
+}
+.steel circle {
+	fill: #888B8D;
+}
+.platinum circle {
+  fill: #E5E4E2;
+}
+.platinum path {
+  stroke: #E5E4E2;
+}
+.paper path {
+	stroke: #f6eee3;
+}
+.paper circle {
+	fill: #f6eee3;
+}
+.graphite circle.projected {
+	stroke: #53565b;
+	fill: none;
+}
+.nickel circle.projected {
+	stroke: #bab6aa;
+	fill: none;
+}
+.lithium circle.projected {
+	stroke: #8A8D8F;
+	fill: none;
+}
+.cobalt circle.projected {
+	stroke: #0047AB;
+	fill: none;
+}
+.rare-earth circle.projected {
+	stroke: #EDEDEF;
+	fill: none;
+}
+.plastic circle.projected {
+	stroke: #c0d0a3;
+	fill: none;
+}
+.copper circle.projected {
+	stroke: #B87333;
+	fill: none;
+}
+.aluminium circle.projected {
+	stroke: #888B8D;
+	fill: none;
+}
+.steel circle.projected {
+	stroke: #888B8D;
+	fill: none;
+}
+.platinum circle.projected {
+  stroke: #E5E4E2;
+  fill: none;
+}
+.paper circle.projected {
+	stroke: #f6eee3;
+	fill: none;
+}

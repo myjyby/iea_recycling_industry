@@ -1,0 +1,109 @@
+main.carousel {
+  /*padding-top: 1em;*/
+  width: 100vw;
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+section.card {
+  /*height: calc(100vh - 2em);
+  width: calc(100vw - 2em);*/
+  margin: 1em;
+  position: relative;
+  border-radius: .5em;
+  flex: 0 0 calc(100% - 2em);
+  scroll-snap-align: center;
+}
+section.card > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 300px;
+}
+div.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 10;
+}
+div.title {
+  grid-column: span 6;
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+  color: #FFF;
+}
+div.content {
+  margin: 1em 0;
+}
+div.content.flex {
+  display: flex;
+}
+div.content text.description {
+  font-size: 12px;
+  /*fill: #FFF;*/
+  text-anchor: middle;
+}
+div.investment {
+  width: 200px;
+  height: 200px;
+}
+div.demand {
+  width: 400px;
+  height: 200px;
+}
+div.investment circle,
+div.demand .pie .slice path {
+  fill: #FFF;
+  fill-opacity: .25;
+  stroke: #FFF;
+}
+div.demand .pie .slice:not(.focus) path {
+  fill-opacity: 0;
+  stroke: #FFF;
+  /*stroke-dasharray: 1,3;*/
+}
+div.investment svg.bubblechart {
+  margin: 0;
+}
+text.tick,
+text.label {
+  fill: #FFF;
+  font-size: 12px;
+  text-anchor: middle;
+}
+text.scenario-label {
+  text-anchor: start;
+  font-size: 12px;
+  fill: #FFF;
+}
+path.scenario {
+  stroke: #FFF;
+  stroke-dasharray: 1,3;
+}
+
+.steel {
+	background-color: #c6c7cf;
+}
+.cobalt {
+  background-color: #a5c0d3;
+}
+.copper {
+  background-color: #edc7b7;
+}
+.lithium {
+  background-color: #d2d0ce;
+}
+.aluminium {
+  background-color: #d2d2d8;
+}
+.nickel {
+  background-color: #d0d0d2;
+}

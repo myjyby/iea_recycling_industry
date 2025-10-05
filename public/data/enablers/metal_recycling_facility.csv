@@ -1,0 +1,23 @@
+﻿city,country,iso3,Latitude,Longitude,Recycling Facilities per million
+Berlin,Germany,DEU,52.52,13.405,25
+Paris,France,FRA,48.8566,2.3522,22
+London,UK,GBR,51.5074,-0.1278,18
+Madrid,Spain,ESP,40.4168,-3.7038,20
+Rome,Italy,ITA,41.9028,12.4964,17
+Amsterdam,Netherlands,NLD,52.3676,4.9041,21
+Vienna,Austria,AUT,48.2082,16.3738,19
+Warsaw,Poland,POL,52.2297,21.0122,15
+Copenhagen,Denmark,DNK,55.6761,12.5683,23
+Oslo,Norway,NOR,59.9139,10.7522,20
+Cairo,Egypt,EGY,30.0444,31.2357,NULL
+Lagos,Nigeria,NGA,6.5244,3.3792,5
+Shanghai,China,CHN,31.2304,121.4737,12
+Tokyo,Japan,JPN,35.6895,139.6917,28
+New York,USA,USA,40.7128,-74.006,24
+Toronto,Canada,CAN,43.6532,-79.3832,22
+Sydney,Australia,AUS,-33.8688,151.2093,19
+Buenos Aires,Argentina,ARG,-34.6037,-58.3816,18
+Cape Town,South Africa,ZAF,-33.9249,18.4241,16
+Bangkok,Thailand,THA,13.7563,100.5018,14
+Rio de Janeiro,Brazil,BRA,-22.9068,-43.1729,17
+Singapore,Singapore,SGP,1.3521,103.8198,25
