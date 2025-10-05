@@ -88,6 +88,16 @@ path.scenario {
   stroke: #FFF;
   stroke-dasharray: 1,3;
 }
+.navtip {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.navtip p {
+  font-style: italic;
+  color: rgba(55,55,55,.5);
+}
 
 .steel {
 	background-color: #c6c7cf;

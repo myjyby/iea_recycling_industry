@@ -123,11 +123,7 @@ p.note {
   font-size: 10px;
   margin-bottom: .5em;
 }
-footer {
-  padding: 0 1rem;
-  font-size: 10px;
-  text-align: right;
-}
+
 
 /* Responsiveness  */
 @media (min-width: 320px) {
