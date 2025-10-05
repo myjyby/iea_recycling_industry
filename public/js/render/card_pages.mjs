@@ -18,7 +18,7 @@ export const init_cards = function (materials, kwargs) {
   });
   // Add the main image
   card.addElems('img')
-    .attr('src', d => `../public/imgs/${d.toLowerCase()}.svg`);
+    .attr('src', d => `./public/imgs/${d.toLowerCase()}.svg`);
 
   const container = card.addElems('div', 'container');
   
