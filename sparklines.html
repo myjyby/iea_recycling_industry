@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src='https://unpkg.com/topojson-client@3' type='module'></script>
+    <script type="module" src="./public/js/pages/sparklines.mjs"></script>
+    <link rel="stylesheet" type="text/css" href="./public/css/sparklines.css" />
+    <link rel="stylesheet" type="text/css" href="./public/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="./public/css/widgets.css" />
+  </head>
+
+  <body>
+    <main class="report">
+      <section class="content">
+        <div class="title">
+          <h1>The State of the Global Recycling Industry</h1>
+        </div>
+        <div class="main-text">
+          <p>The global recycling market is currently worth <b>$3.8&nbsp;Billion</b>, and is projected to grow to <b>$60.8&nbsp;Billion</b> in some scenarios<span class='sparkline' data-source='market_size' data-type='linegraph' data-params='{ "scenario": "B", "sector": "TOTAL" }'></span>. The leading sectors will be <i>Emergency Contamination Response</i><span class='sparkline' data-source='market_size' data-type='linegraph' data-params='{ "scenario": "B", "sector": "Emergency Contamination Response" }'></span>, <i>Recycling Infrastructure</i><span class='sparkline' data-source='market_size' data-type='linegraph' data-params='{ "scenario": "B", "sector": "Emergency Contamination Response" }'></span> and <i>Processing Equipment</i><span class='sparkline' data-source='market_size' data-type='linegraph' data-params='{ "scenario": "B", "sector": "Emergency Contamination Response" }'></span>.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Credits: This page was drawn using d3.js and data from the IEA.</p>
+    </footer>
+  </body>
+</html>

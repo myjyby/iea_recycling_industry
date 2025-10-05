@@ -4,7 +4,7 @@ import {
   enablers_data,
   map_data,
 } from '../load.mjs';
-import * as card_pages from '../render/card_pages.mjs';
+import * as sparklines from '../render/sparkline_inserts.mjs';
 
 async function onLoad() {
   const [ 
@@ -22,24 +22,11 @@ async function onLoad() {
     paper_recycling_cost,    
   ] = await enablers_data();
 
-  const topodata = await map_data();
+  // const topodata = await map_data();
 
-  const materials = [...new Set([
-    ...share_of_demand.map(d => d.material), 
-    ...top_10_investment_2024.map(d => d.material),
-    ...top_10_recycling_rates.map(d => d.material),
-  ])].filter(d => {
-    return share_of_demand.some(c => c.material === d)
-    && top_10_investment_2024.some(c => c.material === d)
-    && top_10_recycling_rates.some(c => c.material === d)
-    && d.toLowerCase() !== 'paper';
+  sparklines.init_sparklines({ 
+    market_size: global_market_size, 
   });
-
-  card_pages.init_cards(materials, { data: [
-    share_of_demand,
-    top_10_investment_2024,
-    top_10_recycling_rates,
-  ] });
 }
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", function () {
