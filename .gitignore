@@ -1,2 +1,6 @@
 .DS_Store
 *.sublime-*
+*.ai
+__source__/
+*.docx
+~$*
