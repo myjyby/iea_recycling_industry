@@ -2,9 +2,9 @@ import { d3_extended as d3 } from './d3.extensions.mjs';
 
 export const market_data = async function () {
   const promises = [
-    d3.csv('../public/data/market/global_market_size.csv'),
-    d3.csv('../public/data/market/market_status.csv'),
-    d3.csv('../public/data/market/share_of_demand.csv'),
+    d3.csv('./public/data/market/global_market_size.csv'),
+    d3.csv('./public/data/market/market_status.csv'),
+    d3.csv('./public/data/market/share_of_demand.csv'),
   ];
   let [ 
     global_market_size,
@@ -74,9 +74,9 @@ export const market_data = async function () {
 
 export const competitiveness_data = async function () {
   const promises = [
-    d3.csv('../public/data/competitiveness/competitiveness_status.csv'),
-    d3.csv('../public/data/competitiveness/top_10_investment_2024.csv'),
-    d3.csv('../public/data/competitiveness/top_10_recycling_rates_interpreted.csv'),
+    d3.csv('./public/data/competitiveness/competitiveness_status.csv'),
+    d3.csv('./public/data/competitiveness/top_10_investment_2024.csv'),
+    d3.csv('./public/data/competitiveness/top_10_recycling_rates_interpreted.csv'),
   ];
   let [
     competitiveness_status,
@@ -120,8 +120,8 @@ export const competitiveness_data = async function () {
 
 export const enablers_data = async function () {
   const promises = [
-    d3.csv('../public/data/enablers/metal_recycling_facility.csv'),
-    d3.csv('../public/data/enablers/paper_recycling_cost.csv'),
+    d3.csv('./public/data/enablers/metal_recycling_facility.csv'),
+    d3.csv('./public/data/enablers/paper_recycling_cost.csv'),
   ];
   let [
     metal_recycling_facility,
@@ -156,8 +156,8 @@ export const enablers_data = async function () {
 
 export const map_data = async function () {
   const promises = [
-    d3.json('../public/data/geo/landmass.topojson'),
-    d3.json('../public/data/geo/countries.topojson'),
+    d3.json('./public/data/geo/landmass.topojson'),
+    d3.json('./public/data/geo/countries.topojson'),
   ];
   return await Promise.all(promises);
 }
